@@ -175,3 +175,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [advertisement]
   # adsense = ""
+
+  [params]
+    customHeadHTML = """
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="L6RdCmsJmGUYZSCBQvwKHA" async></script>
+    """
