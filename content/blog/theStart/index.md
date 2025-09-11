@@ -1,6 +1,6 @@
 ---
 title: "Welcome! Let’s Talk About DevOps That Actually Works"
-date: 2025-09-01
+date: 2025-09-02
 draft: false
 tags: ["DevOps", "Platform Engineering", "Cloud", "Kubernetes", "CI/CD"]
 categories: ["DevOps", "Engineering Journey"]
