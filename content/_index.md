@@ -9,7 +9,7 @@ I’m a **Staff DevOps Engineer** with 10+ years of experience running productio
 I help startups lower cloud spend **without breaking production**.
 
 👉 **Book a Free 15-Minute Cost Review**  
-https://calendly.com/YOUR_CALENDLY/15min
+https://calendly.com/franciscomeza04/30min
 
 ---
 
@@ -56,11 +56,6 @@ Optional implementation support available.
 ---
 
 ## Get Started
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/franciscomeza04/30min" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
