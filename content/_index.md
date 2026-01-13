@@ -1,24 +1,36 @@
 ---
 title: "AWS & Kubernetes Cost Optimization"
 description: "Reduce AWS and EKS costs by 20–40%"
+showHeader: false
+showFooter: false
 ---
 
 # I Help Startups Reduce AWS & Kubernetes Costs by 20–40%
 
-I’m a **Staff DevOps Engineer** with 10+ years of experience running production Kubernetes platforms on AWS.
+I’m a **Staff DevOps Engineer** · 10+ Years · Production AWS & EKS  
 I help startups lower cloud spend **without breaking production**.
 
 👉 **Book a Free 15-Minute Cost Review**  
-https://calendly.com/franciscomeza04/30min
+https://calendly.com/franciscomeza/15min
 
 ---
 
 ## The Problem
 
-- AWS bills increase every month
-- Kubernetes clusters are over-provisioned
-- Spot instances aren’t used safely
-- No time to audit infrastructure properly
+- AWS bills grow every month with no clear owner
+- Kubernetes clusters are massively over-provisioned
+- Spot instances feel too risky to use
+- No time to safely audit production infrastructure
+
+---
+
+## Why Work With Me
+
+- 10+ years operating production infrastructure
+- Saved $350K/year at MixMode
+- Saved $750K/year at PubNub
+- Built and ran 11+ production EKS clusters
+- No junior handoff, no agency overhead
 
 ---
 
@@ -55,13 +67,22 @@ Optional implementation support available.
 
 ---
 
+## What Happens After You Book
+
+1. 15-minute call to understand your setup
+2. Read-only access (or screen-share)
+3. Audit delivered within 5 business days
+4. Walkthrough call with savings roadmap
+
+---
+
 ## Get Started
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/franciscomeza04/30min'});return false;">Quick review to identify cloud cost savings opportunities.</a>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/franciscomeza/15min'});return false;">Quick review to identify cloud cost savings opportunities.</a>
 <!-- Calendly link widget end -->
 
 📧 FranciscoMeza04@gmail.com  
-📅 https://calendly.com/franciscomeza04/30min
+📅 https://calendly.com/franciscomeza/15min

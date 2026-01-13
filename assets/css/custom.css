@@ -1,0 +1,9 @@
+/* Dark overlay for full-page background image */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65); /* 65% dark overlay */
+    z-index: 0;
+    pointer-events: none;
+}
