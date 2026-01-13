@@ -1,67 +1,72 @@
 ---
-title: "Francisco Meza"
-description: "DevOps Engineer • Cloud Architect • Consultant"
-date: 2025-09-09
-cascade:
-  type: "section"
+title: "AWS & Kubernetes Cost Optimization"
+description: "Reduce AWS and EKS costs by 20–40%"
 ---
 
-# Hi, I'm Francisco Meza 👋
+# I Help Startups Reduce AWS & Kubernetes Costs by 20–40%
 
-I’m a **Staff DevOps Engineer** with 10+ years of experience building scalable, secure, and cost-efficient cloud platforms.
-I help companies modernize infrastructure, optimize cloud costs, and streamline DevOps workflows.
+I’m a **Staff DevOps Engineer** with 10+ years of experience running production Kubernetes platforms on AWS.
+I help startups lower cloud spend **without breaking production**.
 
----
-
-## 🚀 What I Do
-
-- **Cloud & Kubernetes Architecture** – AWS, EKS, ECS, Terraform, Ansible
-- **DevOps & Automation** – CI/CD pipelines, GitOps with ArgoCD
-- **Site Reliability Engineering (SRE)** – Monitoring, observability, performance tuning
-- **Security & Compliance** – PCI, SOC2 automation, FedRamp readiness
-- **Cost Optimization** – Scaling strategies that save millions
+👉 **Book a Free 15-Minute Cost Review**  
+https://calendly.com/YOUR_CALENDLY/15min
 
 ---
 
-## 🔥 Featured Work
+## The Problem
 
-- **MixMode AI** – Migrated infrastructure to Kubernetes, integrated ArgoCD, and cut costs with Karpenter.
-- **PubNub** – Saved **$750k/year** by modernizing monitoring with VictoriaMetrics.
-- **Appetize** – Built 12+ Kubernetes clusters with Terraform & Ansible, enabling global scale.
-- **Chrome River** – Deployed first production Kubernetes cluster, automated PCI audit controls.
-
-👉 See full details on my [Portfolio](/portfolio/).
+- AWS bills increase every month
+- Kubernetes clusters are over-provisioned
+- Spot instances aren’t used safely
+- No time to audit infrastructure properly
 
 ---
 
-## 💡 Services
+## The Solution
 
-I’m available for **consulting, freelancing, and contract work** in:
+### AWS + Kubernetes Cost Optimization Audit  
+**$750 · One-Time · No Retainer**
 
-- DevOps Engineering & Automation
-- Cloud Infrastructure (AWS, Kubernetes, IaC)
-- Security & Compliance (PCI, SOC2, FedRamp)
-- Cost Optimization & Cloud Spend Reduction
+**What you get:**
+- AWS spend analysis (EC2, EBS, NAT, EKS)
+- Kubernetes resource & capacity review
+- Spot / Karpenter optimization opportunities
+- Ranked list of savings (quick wins → long-term)
+- 30-minute walkthrough call
 
-👉 Learn more about [Services](/services/).
-
----
-
-## 📫 Let’s Connect
-
-I’d love to hear from you!
-
-- **Email:** [FranciscoMeza04@gmail.com](mailto:FranciscoMeza04@gmail.com)
-- **LinkedIn:** [linkedin.com/in/francisco-m-36a53297](https://www.linkedin.com/in/francisco-m-36a53297/)
-<!-- - **GitHub:** [github.com/franciscomeza](https://github.com/franciscomeza) -->
-
-👉 Start a conversation on my [Contact Page](/contact/).
+Optional implementation support available.
 
 ---
 
-## ✍️ Insights & Writing
+## Proven Results
 
-I share thoughts on **DevOps, automation, and cloud best practices** on my blog.
-Stay tuned for deep dives, case studies, and practical guides.
+- Reduced infrastructure costs by **$350K/year** at MixMode
+- Saved **$750K/year** by modernizing monitoring at PubNub
+- Built and operated **11+ production EKS clusters**
 
-👉 Visit the [Blog](/posts/).
+---
+
+## Who This Is For
+
+- Seed to Series B startups
+- AWS monthly spend: $5K–$200K
+- Running EKS or planning to
+- Lean platform teams
+
+---
+
+## Get Started
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/franciscomeza04/30min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/franciscomeza04/30min'});return false;">Quick review to identify cloud cost savings opportunities.</a>
+<!-- Calendly link widget end -->
+
+📧 FranciscoMeza04@gmail.com  
+📅 https://calendly.com/franciscomeza04/30min
