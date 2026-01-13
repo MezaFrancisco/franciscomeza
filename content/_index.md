@@ -1,8 +1,15 @@
 ---
 title: "AWS & Kubernetes Cost Optimization"
 description: "Reduce AWS and EKS costs by 20–40%"
-showHeader: false
-showFooter: false
+showTableOfContents: false
+showBreadcrumbs: false
+showReadingTime: false
+showEdit: false
+showAuthor: false
+showDate: false
+
+hideHeader: true
+hideFooter: true
 ---
 
 # I Help Startups Reduce AWS & Kubernetes Costs by 20–40%
