@@ -1,6 +1,5 @@
-#others
-node_modules
-.hugo_build.lock
+# Markdown files
+*.md
 
 # OS generated files
 .DS_Store
@@ -9,6 +8,8 @@ node_modules
 .Spotlight-V100
 .Trashes
 
-# Hugo
+# Hugo (legacy)
+node_modules
+.hugo_build.lock
 public
 /public

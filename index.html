@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francisco Meza — Staff DevOps & Platform Engineer</title>
+  <meta name="description" content="Staff DevOps engineer available for contract work. 12 years operating AWS and Kubernetes infrastructure." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --bg: #080f1d;
+      --surface: #0c1628;
+    }
+
+    body {
+      background-color: var(--bg);
+      /* Faint grid + top glow */
+      background-image:
+        radial-gradient(ellipse 110% 45% at 50% -2%, rgba(56,189,248,0.08) 0%, transparent 55%),
+        linear-gradient(rgba(56,189,248,0.022) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56,189,248,0.022) 1px, transparent 1px);
+      background-size: auto, 60px 60px, 60px 60px;
+    }
+
+    ::selection {
+      background: rgba(56,189,248,0.22);
+      color: #f1f5f9;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    .pulse { animation: pulse-dot 2s ease-in-out infinite; }
+  </style>
+</head>
+<body class="font-sans text-slate-300 antialiased">
+
+  <div class="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 py-20 md:py-28">
+
+    <!-- ─── HEADER ──────────────────────────────────────────── -->
+    <header class="mb-28">
+
+      <!-- Availability badge -->
+      <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 border border-emerald-400/30 bg-emerald-400/[0.06] mb-10">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 pulse shrink-0"></span>
+        <span class="font-mono text-xs text-emerald-300 tracking-wide">Available for contracts · Remote</span>
+      </div>
+
+      <!-- Name -->
+      <h1 class="font-mono font-bold leading-[0.92] tracking-tight mb-8">
+        <span class="block text-white" style="font-size: clamp(3.2rem, 10vw, 7.5rem);">Francisco</span>
+        <span class="block text-sky-400" style="font-size: clamp(3.2rem, 10vw, 7.5rem);">Meza</span>
+      </h1>
+
+      <!-- Title + location -->
+      <p class="font-mono text-lg md:text-2xl text-slate-200 mb-2 tracking-wide">
+        Staff DevOps &amp; Platform Engineer
+      </p>
+      <p class="text-base text-slate-500 mb-10">Los Angeles, CA</p>
+
+      <!-- CTAs -->
+      <div class="flex flex-wrap gap-4 mb-8">
+        <a href="#contact"
+           class="font-mono text-base font-semibold px-8 py-3.5 bg-sky-500 text-white hover:bg-sky-400 transition-colors duration-150">
+          Let's Talk
+        </a>
+        <a href="https://calendly.com/franciscomeza/15min"
+           target="_blank" rel="noopener noreferrer"
+           class="font-mono text-base font-medium px-8 py-3.5 border-2 border-sky-500/50 text-sky-400 hover:border-sky-400 hover:text-sky-300 transition-colors duration-150">
+          Book 15 Min
+        </a>
+      </div>
+
+      <p class="text-sm text-slate-500">
+        Currently Staff DevOps @ MixMode (AI security platform) — taking select contracts
+      </p>
+
+      <!-- ─── STATS ─────────────────────────────────────────── -->
+      <div class="grid grid-cols-3 gap-4 md:gap-10 mt-14 pt-12 border-t border-white/[0.07]">
+        <div>
+          <p class="font-mono font-bold text-emerald-400 leading-none" style="font-size: clamp(1.8rem, 4vw, 3rem);">
+            $<span data-target="350">0</span>K
+          </p>
+          <p class="text-xs md:text-sm text-slate-500 mt-2">AWS savings this year</p>
+        </div>
+        <div>
+          <p class="font-mono font-bold text-emerald-400 leading-none" style="font-size: clamp(1.8rem, 4vw, 3rem);">
+            $<span data-target="750">0</span>K+
+          </p>
+          <p class="text-xs md:text-sm text-slate-500 mt-2">saved at PubNub</p>
+        </div>
+        <div>
+          <p class="font-mono font-bold text-sky-400 leading-none" style="font-size: clamp(1.8rem, 4vw, 3rem);">
+            <span data-target="12">0</span> yrs
+          </p>
+          <p class="text-xs md:text-sm text-slate-500 mt-2">in production infrastructure</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- ─── WHAT I DO ────────────────────────────────────────── -->
+    <section class="mb-24">
+      <div class="flex items-center gap-4 mb-10">
+        <div class="w-[3px] h-8 bg-sky-400 shrink-0 rounded-sm"></div>
+        <h2 class="font-mono text-2xl md:text-3xl font-bold text-white">What I Do</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <div class="p-7 bg-[#0c1628] border border-white/[0.07] hover:border-sky-400/25 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-3">Platform Engineering</p>
+          <p class="text-[15px] leading-relaxed text-slate-400">Build and operate EKS clusters, GitOps pipelines, and internal platform tooling. I've run 11+ clusters across prod and non-prod with multi-account ArgoCD.</p>
+        </div>
+
+        <div class="p-7 bg-[#0c1628] border border-white/[0.07] hover:border-sky-400/25 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-3">Cost Optimization</p>
+          <p class="text-[15px] leading-relaxed text-slate-400">Cut $350K/year at my current company, $750K+/year at PubNub. Karpenter, right-sizing, EBS cleanup, spot adoption — done in production, not in theory.</p>
+        </div>
+
+        <div class="p-7 bg-[#0c1628] border border-white/[0.07] hover:border-sky-400/25 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-3">Observability</p>
+          <p class="text-[15px] leading-relaxed text-slate-400">VictoriaMetrics, Grafana, AlertManager, Loki. I've deployed this stack at three companies. I also build internal tooling on top of it.</p>
+        </div>
+
+        <div class="p-7 bg-[#0c1628] border border-white/[0.07] hover:border-sky-400/25 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-3">Internal Tooling &amp; Automation</p>
+          <p class="text-[15px] leading-relaxed text-slate-400">When teams keep doing something manually, I build the tool that automates it. FastAPI, Python, GitLab integrations, AI-assisted workflows.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─── RECENT WORK ──────────────────────────────────────── -->
+    <section class="mb-24">
+      <div class="flex items-center gap-4 mb-3">
+        <div class="w-[3px] h-8 bg-sky-400 shrink-0 rounded-sm"></div>
+        <h2 class="font-mono text-2xl md:text-3xl font-bold text-white">Recent Work</h2>
+      </div>
+      <p class="text-sm text-slate-600 mb-12 pl-6">Sanitized for confidentiality</p>
+
+      <div class="space-y-9">
+
+        <article class="pl-6 border-l-2 border-sky-400/20 hover:border-sky-400/50 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-2">
+            Kubernetes Cost Reduction — AI Security Platform
+          </p>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-3">
+            Cut $350K/year through Karpenter spot scheduling and dangling EBS volume cleanup. No performance degradation, no production incidents.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Karpenter</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">EKS</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Terraform</span>
+          </div>
+        </article>
+
+        <article class="pl-6 border-l-2 border-sky-400/20 hover:border-sky-400/50 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-2">
+            Monitoring Stack Replacement — Real-Time Messaging Platform
+          </p>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-3">
+            Replaced existing monitoring tooling with VictoriaMetrics. $750K+/year saved. Deployed to EKS via ArgoCD with full Slack/PagerDuty alerting.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">VictoriaMetrics</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">ArgoCD</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">AWS EKS</span>
+          </div>
+        </article>
+
+        <article class="pl-6 border-l-2 border-sky-400/20 hover:border-sky-400/50 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-2">
+            Multi-Cluster GitOps — 11 EKS Clusters
+          </p>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-3">
+            Built centralized ArgoCD setup managing deployments across 11 clusters and multiple AWS accounts using cross-account IRSA. Cluster spin-up went from days to a few hours.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">ArgoCD</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Terraform</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">IRSA</span>
+          </div>
+        </article>
+
+        <article class="pl-6 border-l-2 border-sky-400/20 hover:border-sky-400/50 transition-colors duration-200">
+          <p class="font-mono text-base font-semibold text-white mb-2">
+            AlertManager Configuration Platform
+          </p>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-3">
+            Built internal web app (FastAPI + HTMX) so engineers can manage AlertManager routes and receivers through a UI — all changes produce GitLab MRs automatically. GitOps workflow without touching YAML.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">FastAPI</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Python</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">GitLab API</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Kubernetes</span>
+          </div>
+        </article>
+
+        <article class="pl-6 border-l-2 border-sky-400/20 hover:border-sky-400/50 transition-colors duration-200">
+          <div class="flex flex-wrap items-center gap-3 mb-2">
+            <p class="font-mono text-base font-semibold text-white">AI-Assisted Reliability Orchestrator</p>
+            <span class="font-mono text-xs px-2 py-0.5 border border-sky-400/30 text-sky-400/65">in progress</span>
+          </div>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-3">
+            Architecting a failure classification and remediation system using LangGraph + FastAPI. Rule-based triage first, LLM reasoning only for anomalies. Structured output with confidence scores and approval gates.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">LangGraph</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">FastAPI</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">Redis</span>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/[0.09] text-sky-300 border border-sky-400/20">AI/ML</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ─── HOW TO WORK WITH ME ──────────────────────────────── -->
+    <section class="mb-24">
+      <div class="flex items-center gap-4 mb-10">
+        <div class="w-[3px] h-8 bg-sky-400 shrink-0 rounded-sm"></div>
+        <h2 class="font-mono text-2xl md:text-3xl font-bold text-white">How to Work With Me</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+
+        <!-- Contract / Embedded -->
+        <div class="p-8 bg-[#0c1628] border border-white/[0.07]">
+          <p class="font-mono text-xl font-semibold text-white mb-5">Contract / Embedded DevOps</p>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-5">
+            3–6 month contracts. I work as a Staff-level IC — I write code, build systems, run the on-call, and ship things. Not advisory, not oversight. Actual work.
+          </p>
+          <p class="font-mono text-xs text-slate-600 uppercase tracking-widest mb-3">Good fit if you need</p>
+          <ul class="text-[15px] text-slate-400 space-y-2.5 mb-6">
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Senior platform engineer without a full-time hire</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>EKS infrastructure built or stabilized</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>GitOps and CI/CD overhaul</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Observability stack deployed and working</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Internal tooling that your team keeps doing manually</li>
+          </ul>
+          <p class="text-[15px] text-slate-500 mb-7">Rate available on request. Starting with a short discovery call.</p>
+          <a href="#contact"
+             class="font-mono text-sm text-sky-400 hover:text-sky-300 transition-colors duration-150">
+            Start the conversation →
+          </a>
+        </div>
+
+        <!-- Cost Audit — featured with top accent border -->
+        <div class="p-8 bg-[#0c1628] border border-white/[0.07] border-t-2 border-t-sky-400">
+          <div class="flex items-start justify-between gap-4 mb-5">
+            <p class="font-mono text-xl font-semibold text-white">$750 Cost Audit</p>
+            <span class="font-mono text-xs px-2.5 py-1 bg-sky-400/10 text-sky-300 border border-sky-400/25 shrink-0 whitespace-nowrap">Low commitment</span>
+          </div>
+          <p class="text-[15px] leading-relaxed text-slate-400 mb-5">
+            Not ready for a full engagement? Start here.
+          </p>
+          <p class="font-mono text-xs text-slate-600 uppercase tracking-widest mb-3">One-time audit includes</p>
+          <ul class="text-[15px] text-slate-400 space-y-2.5 mb-6">
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>AWS cost breakdown (EC2, EBS, NAT, EKS)</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Kubernetes resource and capacity analysis</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Karpenter / spot optimization opportunities</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>Ranked list: quick wins and long-term savings</li>
+            <li class="flex gap-3 items-start"><span class="text-sky-400/50 shrink-0 mt-[3px]">—</span>30-minute walkthrough call</li>
+          </ul>
+          <p class="text-[15px] text-slate-500 mb-7">Delivered in 5 business days.</p>
+          <a href="https://calendly.com/franciscomeza/15min"
+             target="_blank" rel="noopener noreferrer"
+             class="font-mono text-sm text-sky-400 hover:text-sky-300 transition-colors duration-150">
+            Book the audit →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ─────────────────────────────────────────────── -->
+    <section class="mb-24">
+      <div class="flex items-center gap-4 mb-10">
+        <div class="w-[3px] h-8 bg-sky-400 shrink-0 rounded-sm"></div>
+        <h2 class="font-mono text-2xl md:text-3xl font-bold text-white">About</h2>
+      </div>
+
+      <div class="space-y-5 text-[16px] md:text-[17px] text-slate-400 leading-[1.85] max-w-3xl">
+        <p>I've been doing this for 12 years. Started at a VoIP company patching ShellShock across 20,000 servers with a Perl script, now I'm running infrastructure for AI security platforms and building AI-assisted reliability tools.</p>
+        <p>Most of my career has been at companies where I was the DevOps team, or close to it — which means I know how to operate at Staff level without needing a lot of hand-holding. I care about systems that actually work and tooling that makes engineers' lives less painful.</p>
+        <p>I'm based in Los Angeles. I work remotely.</p>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─────────────────────────────────────────────── -->
+    <section id="contact" class="mb-24">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-[3px] h-8 bg-sky-400 shrink-0 rounded-sm"></div>
+        <h2 class="font-mono text-2xl md:text-3xl font-bold text-white">Work With Me</h2>
+      </div>
+      <p class="text-[15px] text-slate-400 leading-relaxed mb-10 pl-6">
+        Fill this out and I'll follow up by email within one business day. If it sounds like a fit,
+        we'll set up a call from there — no pressure, no sales pitch.
+      </p>
+
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl">
+        <input type="hidden" name="access_key" value="9b7013b8-c19e-44e7-bc8a-c44446c65aa0" />
+        <input type="hidden" name="subject" value="New inquiry from franciscomeza.com" />
+        <input type="checkbox" name="botcheck" style="display:none" />
+
+        <div class="space-y-5">
+
+          <!-- Row 1: Name + Title -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label for="f-name" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Full Name <span class="text-sky-400">*</span>
+              </label>
+              <input id="f-name" type="text" name="name" required autocomplete="name"
+                placeholder="Jane Smith"
+                class="w-full bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] placeholder-slate-700 focus:border-sky-400/60 focus:outline-none transition-colors duration-150" />
+            </div>
+            <div>
+              <label for="f-role" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Your Role <span class="text-sky-400">*</span>
+              </label>
+              <div class="relative">
+                <select id="f-role" name="role" required
+                  class="w-full appearance-none bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] focus:border-sky-400/60 focus:outline-none transition-colors duration-150 cursor-pointer">
+                  <option value="" disabled selected class="text-slate-700">Select your role</option>
+                  <option value="CTO">CTO</option>
+                  <option value="VP Engineering">VP Engineering</option>
+                  <option value="VP Infrastructure">VP Infrastructure</option>
+                  <option value="Engineering Manager">Engineering Manager</option>
+                  <option value="Founder / CEO">Founder / CEO</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-xs">▾</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Email + Phone -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label for="f-email" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Work Email <span class="text-sky-400">*</span>
+              </label>
+              <input id="f-email" type="email" name="email" required autocomplete="email"
+                placeholder="jane@company.com"
+                class="w-full bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] placeholder-slate-700 focus:border-sky-400/60 focus:outline-none transition-colors duration-150" />
+            </div>
+            <div>
+              <label for="f-phone" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Phone <span class="text-slate-600 normal-case font-sans tracking-normal">(for callback)</span>
+              </label>
+              <input id="f-phone" type="tel" name="phone" autocomplete="tel"
+                placeholder="+1 (555) 000-0000"
+                class="w-full bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] placeholder-slate-700 focus:border-sky-400/60 focus:outline-none transition-colors duration-150" />
+            </div>
+          </div>
+
+          <!-- Row 3: Company + Team size -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label for="f-company" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Company <span class="text-sky-400">*</span>
+              </label>
+              <input id="f-company" type="text" name="company" required autocomplete="organization"
+                placeholder="Acme Inc."
+                class="w-full bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] placeholder-slate-700 focus:border-sky-400/60 focus:outline-none transition-colors duration-150" />
+            </div>
+            <div>
+              <label for="f-team" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+                Engineering Team Size
+              </label>
+              <div class="relative">
+                <select id="f-team" name="team_size"
+                  class="w-full appearance-none bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] focus:border-sky-400/60 focus:outline-none transition-colors duration-150 cursor-pointer">
+                  <option value="" disabled selected>Select range</option>
+                  <option value="1–5">1–5 engineers</option>
+                  <option value="6–15">6–15 engineers</option>
+                  <option value="16–50">16–50 engineers</option>
+                  <option value="50+">50+ engineers</option>
+                </select>
+                <span class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-xs">▾</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interested in -->
+          <div>
+            <label for="f-interest" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+              Interested In <span class="text-sky-400">*</span>
+            </label>
+            <div class="relative">
+              <select id="f-interest" name="interested_in" required
+                class="w-full appearance-none bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] focus:border-sky-400/60 focus:outline-none transition-colors duration-150 cursor-pointer">
+                <option value="" disabled selected>What can I help with?</option>
+                <option value="Contract engagement (3–6 months)">Contract engagement (3–6 months)</option>
+                <option value="$750 Cost Audit">$750 Cost Audit — one-time AWS &amp; Kubernetes review</option>
+                <option value="Short discovery call first">Just a discovery call first — not sure yet</option>
+                <option value="Something else">Something else</option>
+              </select>
+              <span class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-xs">▾</span>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div>
+            <label for="f-message" class="font-mono text-xs text-slate-500 uppercase tracking-widest block mb-2">
+              What's Going On <span class="text-slate-600 normal-case font-sans tracking-normal">(optional but helpful)</span>
+            </label>
+            <textarea id="f-message" name="message" rows="4"
+              placeholder="What's your current stack? What's broken, too expensive, or blocking the team? Any rough timeline?"
+              class="w-full bg-[#0c1628] border border-white/[0.1] text-slate-200 px-4 py-3 text-[15px] placeholder-slate-700 focus:border-sky-400/60 focus:outline-none transition-colors duration-150 resize-none"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <div class="flex flex-wrap items-center gap-5 pt-1">
+            <button type="submit" id="submit-btn"
+              class="font-mono text-base font-semibold px-8 py-3.5 bg-sky-500 text-white hover:bg-sky-400 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-150">
+              Request a Callback
+            </button>
+            <p class="text-xs text-slate-600">I'll reply by email first, then we'll schedule a call.</p>
+          </div>
+
+          <p id="form-status" class="font-mono text-sm hidden"></p>
+
+        </div>
+      </form>
+    </section>
+
+    <!-- ─── FOOTER ────────────────────────────────────────────── -->
+    <footer class="pt-10 border-t border-white/[0.07]">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="text-sm text-slate-500 text-center sm:text-left">
+          <a href="mailto:franciscomeza04@gmail.com" class="hover:text-slate-300 transition-colors duration-150">franciscomeza04@gmail.com</a>
+          <span class="mx-2 text-slate-700">·</span>
+          <a href="https://www.linkedin.com/in/meza-francisco/" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition-colors duration-150">linkedin.com/in/meza-francisco</a>
+          <span class="mx-2 text-slate-700">·</span>
+          <span>Los Angeles, CA</span>
+        </p>
+        <p class="text-xs text-slate-700 shrink-0">© 2026 Francisco Meza</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    (function () {
+      // ── Animated counters ──────────────────────────────────────
+      function countUp(el) {
+        var target = parseInt(el.getAttribute('data-target'), 10);
+        var duration = 1500;
+        var start = performance.now();
+        function tick(now) {
+          var elapsed = Math.min((now - start) / duration, 1);
+          var eased = 1 - Math.pow(1 - elapsed, 3);
+          el.textContent = Math.floor(eased * target);
+          if (elapsed < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+
+      var counterObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            countUp(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.4 });
+
+      document.querySelectorAll('[data-target]').forEach(function (el) {
+        counterObserver.observe(el);
+      });
+
+      // ── Contact form ───────────────────────────────────────────
+      var form = document.getElementById('contact-form');
+      var btn  = document.getElementById('submit-btn');
+      var status = document.getElementById('form-status');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        status.className = 'font-mono text-sm hidden';
+
+        var data = Object.fromEntries(new FormData(form));
+
+        fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        })
+        .then(function (res) { return res.json(); })
+        .then(function (json) {
+          if (json.success) {
+            status.textContent = '✓ Received. I\'ll follow up by email within one business day.';
+            status.className = 'font-mono text-sm text-emerald-400';
+            form.reset();
+          } else {
+            throw new Error();
+          }
+        })
+        .catch(function () {
+          status.textContent = 'Something went wrong — email me directly at franciscomeza04@gmail.com';
+          status.className = 'font-mono text-sm text-red-400';
+        })
+        .finally(function () {
+          btn.disabled = false;
+          btn.textContent = 'Request a Callback';
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
